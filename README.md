@@ -2,6 +2,8 @@
 
 Day 2: Bin2Dec
 
+![bin2dec demo](./bin2dec.gif)
+
 ## Description
 Create a binary to decimal number converter.
 

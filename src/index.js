@@ -49,7 +49,7 @@ class App extends React.Component {
     let input = e.target.value;
     let val = this.evaluate(input);
 
-    let c = new CountUp('result', 0, {useGrouping: true});
+    let c = new CountUp('result', 0, {duration: 1, useGrouping: true});
 
     if (val === 'invalid') {
       this.setState({
